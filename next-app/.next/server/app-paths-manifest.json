@@ -1,0 +1,6 @@
+{
+  "/(public)/(home)/page": "app/(public)/(home)/page.js",
+  "/(public)/profile/[userName]/page": "app/(public)/profile/[userName]/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

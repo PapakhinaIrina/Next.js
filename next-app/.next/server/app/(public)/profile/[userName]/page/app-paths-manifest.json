@@ -1,0 +1,3 @@
+{
+  "/(public)/profile/[userName]/page": "app/(public)/profile/[userName]/page.js"
+}
