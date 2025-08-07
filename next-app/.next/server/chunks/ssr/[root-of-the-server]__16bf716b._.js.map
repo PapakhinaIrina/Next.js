@@ -1,8 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/irina/Desktop/Next.js/next-app/src/app/%28home%29/tweet.tsx"],"sourcesContent":["import type { ITweet } from \"@/shared/types/tweet.interface\";\n\ninterface ITweetProps {\n  tweet: ITweet;\n}\n\nexport const Tweet = (props: ITweetProps) => {\n  return (\n    <div>\n      <p>{props.tweet.text}</p>\n      <span>{\"@\" + props.tweet.autor}</span>\n    </div>\n  );\n};\n"],"names":[],"mappings":";;;;;AAMO,MAAM,QAAQ,CAAC;IACpB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG,MAAM,KAAK,CAAC,IAAI;;;;;;0BACpB,8OAAC;0BAAM,MAAM,MAAM,KAAK,CAAC,KAAK;;;;;;;;;;;;AAGpC","debugId":null}},
-    {"offset": {"line": 51, "column": 0}, "map": {"version":3,"sources":["file:///Users/irina/Desktop/Next.js/next-app/src/app/%28home%29/page.tsx"],"sourcesContent":["import { Tweet } from \"./tweet\";\n\nexport default function Home() {\n  return (\n    <div className=\"min-h-screen flex justify-center items-center px-4 py-8\">\n      <Tweet tweet={{ id: \"1\", text: \"Hello world\", autor: \"John Doe\" }} />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC,gIAAA,CAAA,QAAK;YAAC,OAAO;gBAAE,IAAI;gBAAK,MAAM;gBAAe,OAAO;YAAW;;;;;;;;;;;AAGtE","debugId":null}}]
-}

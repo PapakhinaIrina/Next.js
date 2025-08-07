@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/irina/Desktop/Next.js/next-app/src/app/%28public%29/profile/%5BuserName%5D/page.tsx"],"sourcesContent":["interface IProfileProps {\n  text: string;\n}\n\nexport default function Profile(props: IProfileProps) {\n  return <div>Admin Page</div>;\n}\n"],"names":[],"mappings":";;;;;AAIe,SAAS,QAAQ,KAAoB;IAClD,qBAAO,8OAAC;kBAAI;;;;;;AACd","debugId":null}}]
-}
