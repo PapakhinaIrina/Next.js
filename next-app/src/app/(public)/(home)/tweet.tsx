@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { RoutePath } from "@/shared/config/routePath";
 
 interface ITweetProps {
   id: number;
@@ -25,7 +26,7 @@ export const Tweet = ({ id, text, author, avatar }: ITweetProps) => {
           <span className="text-sm font-medium text-white truncate">
             {text}
           </span>
-          <Link href={`/profile/${author}`}>
+          <Link href={RoutePath.profile.author(id.toString())}>
             <p className="text-xs text-gray-500">@{author}</p>
           </Link>
         </div>
